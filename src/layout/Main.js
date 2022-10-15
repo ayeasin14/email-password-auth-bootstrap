@@ -4,10 +4,7 @@ import { Link, Outlet } from 'react-router-dom';
 const Main = () => {
     return (
         <div className=''>
-            <nav className='w-50 mx-auto text-semibold'>
-                <Link className='mx-2' to='/login'>Login</Link>
-                <Link to='/register'>Register</Link>
-            </nav>
+            <h1 className='text-warning mx-auto w-50'>My Simple Authentication</h1>
             <Outlet></Outlet>
         </div>
     );
