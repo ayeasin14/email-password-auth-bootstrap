@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="">
       <RegisterReactBooststrap></RegisterReactBooststrap>
-      <RegisterBootstrap></RegisterBootstrap>
+
     </div>
   );
 }
